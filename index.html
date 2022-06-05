@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/e6a9c2e48e.js" crossorigin="anonymous"></script>
+
+<!--nombre de pagina-->
+  <title>MOVIEFREE</title>
+</head>
+<body>
+  <!--menu principal-->
+	<header>
+		<div class="contenedor">
+			<h2 class="logotipo">MOVIEFREE</h2>
+			<nav>
+				<a  class="inicio" id="inicio" href="#">Inicio de Secion</a>
+        <a  class="activo" id="registrate" href="#">Registrate</a>
+			</nav>
+		</div>
+	</header>
+<!--contenedor pelicula principal-->
+	<main>
+		<div class="pelicula-principal">
+			<div class="contenedor">
+				<h3 class="titulo">IT (Eso)</h3>
+				<p class="descripcion">
+				Remake del clásico de Stephen King en el que un payaso aterroriza a los niños de un vecindario.
+        En un pequeño pueblo de Maine, siete niños conocidos como el Club de los Perdedores se encuentran cara a cara con problemas de la vida,
+         matones y un monstruo que toma la forma de un payaso llamado Pennywise.
+				</p>
+				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+			</div>
+			<!--carousel de peliculas-->
+		</div>
+		<div class="peliculas-recomendadas contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Películas Recomendadas</h3>
+				<div class="indicadores">
+
+				</div>
+			</div>
+
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="#"><img src="img/1.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/2.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/3.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/4.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/5.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/6.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/7.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/8.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/9.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/10.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/11.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/12.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/13.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/14.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/15.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/16.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/17.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/18.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/19.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/12.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/3.jpg" alt=""></a>
+						</div>
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+		<div class="overlay" id="overlay">
+			<div class="popup" id="popup">
+				<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup" ><i class="fas fa-times"></i></a>
+				<h3>Inicio de Secion</h3>
+				<h4>Tu ingresa tus datos:</h4>
+				<form action="">
+					<div class="contenedor-inputs">
+						<input type="text" placeholder="Usuario">
+						<input type="email" placeholder="Contraseña">
+						<a  class="olvido" id="olvido" href="#"><i class="">Olvido Contraseña</a>
+							<!--<h5>Ingrese Correo Electronico</h5>
+							<form action="">
+								<div class= "restablecer">
+									<input type="email" placeholder="Correo Electronico">
+								</div>
+							</form>-->
+					</div>
+					<input type="submit" class="btn-submit" value="ingresa">
+				</form>
+			</div>
+		</div>
+		<div class="over" id="over">
+			<div class="popu" id="popu">
+				<a href="#" id="btn-cerrar-popu" class="btn-cerrar-popup" ><i class="fas fa-times"></i></a>
+				<h3>REGISTRATE</h3>
+				<h4>Tu Primer Mes Gratis</h4>
+				<form action="">
+					<div class="contenedor-input">
+						<input type="text" placeholder="nombre de usuario">
+						<input type="email" placeholder="Correo Electronico">
+						<a href="#"></a>
+					</div>
+					<input type="submit" class="btn-submit" value="Enviar">
+				</form>
+			</div>
+		</div>
+	</main>
+
+	<footer class="pie-pagina">
+			<div class="grupo-1">
+					<div class="box">
+							<figure>
+									<a href="#">
+											<img src="https://png.pngtree.com/png-vector/20190816/ourlarge/pngtree-film-logo-design-template-vector-isolated-illustration-png-image_1693431.jpg" alt="Logo de SLee Dw">
+									</a>
+							</figure>
+					</div>
+					<div class="box">
+							<h2>SOBRE NOSOTROS</h2>
+							<p>Gracias por visitar mi pagina la cual te permitira ver peliculas totalmente gratis</p>
+							<p>todas ellas en Full HD Te seguimos esperando por aqui. </p>
+					</div>
+					<div class="box">
+							<h2>SIGUENOS</h2>
+							<div class="red-social">
+									<a href="#" class="fa fa-facebook"></a>
+									<a href="#" class="fa fa-instagram"></a>
+									<a href="#" class="fa fa-twitter"></a>
+									<a href="#" class="fa fa-youtube"></a>
+							</div>
+					</div>
+			</div>
+			<div class="grupo-2">
+					<small>&copy; 2022 <b>JONATAN GARCIA</b> - Todos los Derechos Reservados. <b>INTRODUCCION A LOS SISTEMAS DE COMPUTO</b></small>
+			</div>
+	</footer>
+
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script href="js/main.js" src="js/main.js"></script>
+</body>
+</html>
