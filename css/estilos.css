@@ -319,6 +319,18 @@ header nav a.activo {
 	transition: .3s ease all;
 }
 
+.popup form .olvido {
+	height: 40px;
+	line-height: 70px;
+	border none;
+	color: rgb(8, 8, 8);
+	line-height:;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
 .popup form .btn-submit:hover {
 	background: rgba(94,125,227,.5)
 }
